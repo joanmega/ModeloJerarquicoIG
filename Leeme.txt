@@ -1,0 +1,34 @@
+Archivo leeme.txt
+
+José Antonio Medina García
+
+Para compilar esta práctica se debe ejecutar el archivo makefile adjunto en este fichero comprimido.
+
+Una vez compilado ejecutaremos el programa con ./prac3 seguido del fichero ply que queremos cargar. Por ejemplo:
+
+	./prac3 ./ant.ply
+
+Al iniciar el programa no veremos ninguna figura cargada. Para ver alguna debemos de pulsar las siguientes teclas:
+
+1 -> Para cargar el modelo ply.
+2 -> Para ver el peón.
+3 -> Para cargar nuestro modelo jerarquico.
+
+Por defecto se cargará el modelo en modo ajedrez. Para cambiar el modo debemos de pulsar las siguientes teclas:
+
+S -> Modo sólido.
+L -> Modo lineas/alambre.
+P -> Modo puntos.
+A -> Para volver al modo ajedrez.
+
+Para ver los diferentes grados de libertad de nuestro modelo jerarquico pulsaremos las siguientes teclas:
+
+Z/z -> Para mover la cabeza de nuestro muñeco.
+X/x -> Para mover las piernas del muñeco y se desplace para atrás (X) o para adelante (x).
+C/c -> Para mover los brazos de nuestro muñeco.
+
+Además también podemos:
+
+- Acercarnos a cualquiera de nuestros modelos con las teclas RePag y AvPag.
+- Girar hacia la izquierda y derecha, arriba y abajo con las teclas de direcciones.
+- Salir del programa con la tecla Q.
